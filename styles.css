@@ -27,12 +27,19 @@ footer {
     font-size: 24px;
 }
 
+.media-icons {
+    display: flex; /* Change from block to flex */
+    justify-content: center; /* Center the icons horizontally */
+    align-items: center; /* Center the icons vertically */
+}
+
 .media-icons a {
     margin: 0 10px;
     color: white;
     font-size: 20px;
     text-decoration: none;
 }
+
 
 .link-boxes {
     display: flex;
